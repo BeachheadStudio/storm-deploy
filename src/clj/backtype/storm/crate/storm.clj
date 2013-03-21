@@ -52,6 +52,8 @@
    (package/package "daemontools")
    (package/package "unzip")
    (package/package "zip")
+   (package/package "python-setuptools")
+   (package/package "python-virtualenv")
    ))
 
 (defn get-release [request release]
